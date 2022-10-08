@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.links {
+    display: flex;
+    align-content: flex-start;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header-info {
+    font-size: 15px;
+    color: #f9faf2;
+}
+
+.sign-up-1 {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+}
+
+.midddle {
+}
+
+.bottom {   
+}
+
+.footer {
+}
