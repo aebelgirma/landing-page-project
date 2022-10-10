@@ -4,14 +4,21 @@ body {
 
 .top {
     background-color: #1F2937;
-    justify-content: space-between;
     padding: 10px;
+    /* display: flex; */
+    /* justify-content: space-between; */
 }
 
-.header-1 {
+.header-link, .header-logo {
+    display: flex;
+}
+
+.header-link {
     gap: 16px;
     display: flex;
-    justify-content: space-between;
+    /* align-items: center; */
+    /* align-content: flex-start; */
+    justify-content: right;
 }
 
 .header-logo {
@@ -19,7 +26,7 @@ body {
     font-size: 24px;
     color: #f9faf8;
     display: flex;
-    align-content: right;
+    align-content: left;
 }
 
 ul {
@@ -59,7 +66,22 @@ h1 {
     border: none;
 }
 
+.grey-box {
+    background-color: #97999e;
+    height: 120px;
+    width: 320px;
+    margin: 16px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder {
+    color: white;
+}
+
 .midddle {
+    display: flex;
 }
 
 .quote {
