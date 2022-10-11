@@ -1,16 +1,29 @@
-body {
+* {
     margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: block;
+}
+
+div {
+    display: block;
 }
 
 .top {
     background-color: #1F2937;
-    padding: 10px;
-    /* display: flex; */
-    /* justify-content: space-between; */
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.header-link, .header-logo {
+.header {
     display: flex;
+    justify-content: space-between;
+    width: 80%;
 }
 
 .header-link {
@@ -22,16 +35,21 @@ body {
 }
 
 .header-logo {
-    max-width: 900px;
-    font-size: 24px;
-    color: #f9faf8;
-    display: flex;
-    align-content: left;
+    color: #F9FAF8;
+    flex: 1 1 50%;
 }
 
-ul {
-    list-style-type: none;
+nav {
     display: flex;
+    justify-content: flex-end;
+    flex: 1 1 50%;
+}
+
+nav ul {
+    display: flex;
+    flex-basis: 70%;
+    justify-content: space-between;
+    list-style-type: none;
     margin: 0;
     padding: 0px;
     gap: 5px;
@@ -42,42 +60,58 @@ li {
     color: #E5E7EB;
 }
 
-h1 {
+.hero-section {
+    background-color: #1F2937;
+    color: #fff;
+    padding: 120px 0;
+}
+
+.wide-margin {
+    margin: 0 15%;
+    display: flex;
+}
+
+.half-div-right {
+    flex: 1 1 50%;
+}
+
+.hero-text {
+    margin-right: 20%;
+}
+
+h2 {
+    color: #F9FAF8;
     font-size: 48px;
     font-weight: bold;
-    color: #F9FAF8;
-    margin: 0px;
-    padding: 0;
-    display: flex;
 }
 
-.header-info {
+p {
     font-size: 15px;
     color: #f9faf2;
-    display: flex;
+    margin: 18px 0 18px 0;
 }
 
-.sign-up-1 {
+button {
     background-color: #3882F6;
     color: white;
-    border-radius: 5px;
-    padding: 5px;
-    width: 100px;
-    border: none;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.grey-box {
-    background-color: #97999e;
-    height: 120px;
-    width: 320px;
-    margin: 16px 0 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.half-div-left {
+    flex: 1 1 50%;
 }
 
 .placeholder {
-    color: white;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 12px;
+    background-color: #E5E7EB;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .midddle {
